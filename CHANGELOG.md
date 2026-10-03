@@ -8,7 +8,7 @@
 ## 1.10.0 — 2026-10-03
 
 ### Added
-- **Mega Dashboard is a Home Assistant app.** In Home Assistant open *Settings → Apps → App store → ⋮ → Repositories*, add `https://apps.mega-dashboard.eu` and install *Mega Dashboard*. The app installs the dashboard together with button-card, layout-card, card-mod, kiosk-mode, mini-graph-card and advanced-camera-card (an add-on that HACS already installed is left alone), creates a *Mega Dashboard* dashboard and keeps everything registered. HACS is no longer needed.
+- **Mega Dashboard is a Home Assistant app.** In Home Assistant open *Settings → Apps → App store → ⋮ → Repositories*, add `https://apps.mega-dashboard.eu/` and install *Mega Dashboard*. The app installs the dashboard together with button-card, layout-card, card-mod, kiosk-mode, mini-graph-card and advanced-camera-card (an add-on that HACS already installed is left alone), creates a *Mega Dashboard* dashboard and keeps everything registered. HACS is no longer needed.
 - On the dashboard the app creates, the setup wizard opens by itself.
 
 ## 1.9.1 — 2026-10-03

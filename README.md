@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=9a309d38_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Open your Home Assistant instance and show the Mega Dashboard app."></a>
+  <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Open your Home Assistant instance and show the Mega Dashboard app."></a>
 </p>
 
 <p align="center">
@@ -76,9 +76,9 @@
 
 1. Click the button below. Home Assistant adds the Mega Dashboard app store and opens the app.
 
-   [![Open your Home Assistant instance and show the Mega Dashboard app.](https://my.home-assistant.io/badges/supervisor_app.svg)](https://my.home-assistant.io/redirect/supervisor_app/?app=9a309d38_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu)
+   [![Open your Home Assistant instance and show the Mega Dashboard app.](https://my.home-assistant.io/badges/supervisor_app.svg)](https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F)
 
-   Or open **Settings → Apps → App store → ⋮ → Repositories**, add `https://apps.mega-dashboard.eu` and open **Mega Dashboard**.
+   Or open **Settings → Apps → App store → ⋮ → Repositories**, add `https://apps.mega-dashboard.eu/` and open **Mega Dashboard**.
 2. Press **Install**, then **Start**.
 3. **Reload the browser** once (`Ctrl+F5`, or close and reopen the Home Assistant app on phones and tablets).
 

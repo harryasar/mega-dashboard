@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=9a309d38_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Покажи приложението Mega Dashboard в твоя Home Assistant."></a>
+  <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Покажи приложението Mega Dashboard в твоя Home Assistant."></a>
 </p>
 
 <p align="center">
@@ -76,9 +76,9 @@
 
 1. Натисни бутона отдолу. Home Assistant добавя магазина на Mega Dashboard и отваря приложението.
 
-   [![Покажи приложението Mega Dashboard в твоя Home Assistant.](https://my.home-assistant.io/badges/supervisor_app.svg)](https://my.home-assistant.io/redirect/supervisor_app/?app=9a309d38_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu)
+   [![Покажи приложението Mega Dashboard в твоя Home Assistant.](https://my.home-assistant.io/badges/supervisor_app.svg)](https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F)
 
-   Или отвори **Настройки → Приложения → Магазин за приложения → ⋮ → Хранилища**, добави `https://apps.mega-dashboard.eu` и отвори **Mega Dashboard**.
+   Или отвори **Настройки → Приложения → Магазин за приложения → ⋮ → Хранилища**, добави `https://apps.mega-dashboard.eu/` и отвори **Mega Dashboard**.
 2. Натисни **Инсталирай**, после **Старт**.
 3. **Презареди браузъра** веднъж (`Ctrl+F5`; на телефон и таблет затвори и отвори приложението на HA).
 
