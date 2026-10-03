@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.13.0 — 2026-10-03
+
+### Added
+- **Right-click menu in the Studio.** Right-click any element for everything its toolbar has (settings, move, copy, hide, lock, delete) plus *Add an element after this one*, *New popup on tap*, the library, the layers, *Try* and *Hide the Studio*. Shift + right-click still opens the browser's menu.
+- **Boxes and modules on their own row.** On hand-made pages, point between two rows — or above the first and below the last — and add *Box on a new row* or *Module on a new row*: a full-width row right under the top menu, between rows or under the bottom ones. Elements can be dragged there too.
+- **Easy settings.** *All settings* on a card is now a friendly list with names, switches, colour and icon pickers and groups you open with an arrow — every setting the card has, including those without a form field. Add or remove a setting with one click; *JSON* stays for advanced users.
+- **Column widths.** Drag the side of a column on a hand-made page to change its width (a pixel label shows the size).
+- **Popups without Browser Mod.** Mega Dashboard now has its own popup: buttons that open a popup work even without Browser Mod (glass window, title, close button, closes with Esc or a tap outside; a bottom sheet on phones). With Browser Mod installed, it keeps doing the job, and popups also work from automations.
+- **New popup in one click.** *New popup on tap* (right-click or *More*) gives any button or tile a popup and opens it straight in the popup editor. If tapping already does something, the popup goes on hold or double tap.
+- **Slide-out panel on hand-made pages.** *Layout → Add a slide-out panel* adds the panel on the right that shows as a thin strip and slides out; put modules in it like in a box.
+- Background from *Style* now applies to hand-made pages too (*As on the page* keeps their own).
+
+### Changed
+- The slide-out panel opens with a tap on phones and tablets and closes with a tap outside (before, it relied on hover).
+- *Hide the Studio* slides the bars away smoothly and leaves a small *Studio* button at the bottom to bring them back.
+- Menu groups, *More*, the clock's *Today* and the overview tiles open popups even without Browser Mod.
+
+### Fixed
+- **Room light corners can be removed.** Tap a corner and press the red ✕, or press Delete, or right-click it. A room keeps at least 3 corners.
+- **Resizing a group of columns** on a hand-made page changes the column width instead of doing nothing.
+- The popup editor shows the real content of popups made with button-card (templates written as `[[[[ … ]]]]`) instead of the template text, and new elements added to such popups keep working.
+
 ## 1.12.0 — 2026-10-03
 
 ### Added

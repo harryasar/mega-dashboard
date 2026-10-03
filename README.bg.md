@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Приложение за Home Assistant"></a>
-  <img src="https://img.shields.io/badge/version-1.12.0-blue.svg?style=for-the-badge" alt="1.12.0">
+  <img src="https://img.shields.io/badge/version-1.13.0-blue.svg?style=for-the-badge" alt="1.13.0">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -223,7 +223,7 @@
 | [kiosk-mode](https://github.com/NemesisRE/kiosk-mode) | Превключвателите за цял екран в *Общи настройки* | по желание, вкл. |
 | [mini-graph-card](https://github.com/kalkih/mini-graph-card) | По-хубави графики за енергия и температура | по желание, вкл. |
 | [advanced-camera-card](https://github.com/dermotduffy/advanced-camera-card) | Камери на живо с превключване и записи | по желание, вкл. |
-| [browser_mod](https://github.com/thomasloven/hass-browser_mod) | Изскачащи прозорци при натискане | не — [отвори в HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration) |
+| [browser_mod](https://github.com/thomasloven/hass-browser_mod) | Прозорци и от автоматизации — прозорците на бутоните се отварят и без него (Mega Dashboard има собствен) | не — [отвори в HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration) |
 
 ## Обновяване
 

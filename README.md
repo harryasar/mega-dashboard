@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.12.0-blue.svg?style=for-the-badge" alt="1.12.0">
+  <img src="https://img.shields.io/badge/version-1.13.0-blue.svg?style=for-the-badge" alt="1.13.0">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -223,7 +223,7 @@ The built-in Home Assistant cards work without anything else. The app installs t
 | [kiosk-mode](https://github.com/NemesisRE/kiosk-mode) | The full-screen switches in *General settings* | optional, on |
 | [mini-graph-card](https://github.com/kalkih/mini-graph-card) | Nicer graphs for energy and temperature | optional, on |
 | [advanced-camera-card](https://github.com/dermotduffy/advanced-camera-card) | Live cameras with switching and recordings | optional, on |
-| [browser_mod](https://github.com/thomasloven/hass-browser_mod) | Popups as card actions | no — [open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration) |
+| [browser_mod](https://github.com/thomasloven/hass-browser_mod) | Popups from automations too — popups on buttons open without it (Mega Dashboard has its own) | no — [open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration) |
 
 ## Updating
 
