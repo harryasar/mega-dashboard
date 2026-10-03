@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.11.2 — 2026-10-03
+
+### Fixed
+- When Home Assistant's own top bar and sidebar are visible, the Studio's bars no longer cover the bottom of the dashboard: the page measures the real space between Home Assistant's header and the Studio's bars and fits into it, on computer, tablet and phone.
+- Full-height pages fit under Home Assistant's visible top bar instead of running 56 px below the screen (takes effect the next time the dashboard is saved).
+
 ## 1.11.1 — 2026-10-03
 
 ### Fixed
