@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions, help and ideas
+    url: https://github.com/harryasar/mega-dashboard/discussions
+    about: Ask, share your dashboard or suggest something.
+  - name: Installation and first steps
+    url: https://github.com/harryasar/mega-dashboard#installation
+    about: How to install the Home Assistant app, open the dashboard and the editor.
+  - name: Troubleshooting
+    url: https://github.com/harryasar/mega-dashboard#troubleshooting
+    about: The Settings button is missing, read-only dashboards, two copies loaded and more.

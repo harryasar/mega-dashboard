@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea to make Mega Dashboard better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe what you are trying to achieve on your dashboard.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could it work?
+      description: Your idea for how it could look or work in the editor. Screenshots or sketches welcome.
