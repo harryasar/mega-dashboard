@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.12.0 — 2026-10-03
+
+### Added
+- **Room lights on the map.** A light now lights up the room's own area on the map itself — no cut-out pictures. Draw the room's shape (corner points you drag, add with the dots between them, double-click to remove) or use a soft spot, and set softness, brightness by night and by day and the colour of the light. *Light* in the map editor adds one in one click.
+- Old picture lights get *Turn into a room light*, or *Turn all old lights* at once.
+- **Boxes.** On hand-made pages, the *Box* module adds a glass box with a title, and you can drop or add modules inside it — from the library or with *Add a module to the box*.
+
+### Changed
+- **Replacing the map keeps everything in place.** When you upload a new day picture of the house, the editor finds where the house sits in it and moves the room lights, points and effects with it; the night picture follows the room shapes too.
+- The Studio's panels no longer cover what you edit: when the library, the layers or the settings panel is open, the page slides so the selected element stays in the free area, on computer, tablet and phone.
+- On phones the settings sheet takes less of the screen.
+- The *Try* bar sits above the Studio's bottom bar instead of covering the dashboard's top menu.
+
+### Fixed
+- Dragging a module from the library onto the page drops it again instead of leaving it stuck under the finger or mouse; if there is no place to drop it, a message says so.
+- On a fixed-height page (for example a Wall Display), the 3D map no longer grows over the top menu.
+
 ## 1.11.3 — 2026-10-03
 
 ### Fixed
