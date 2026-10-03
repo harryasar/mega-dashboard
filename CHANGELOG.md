@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.11.0 — 2026-10-03
+
+### Added
+- **Separate computer, tablet and phone versions.** A bar above the Studio's bottom bar picks the version you edit — computer (over 1024 px), tablet (601–1024 px, upright or turned) or phone (up to 600 px). Order, position, width, spacing, colours, texts, hidden items, bars, the top bar, popups and the elements inside modules change only in that version; the canvas takes the device's size, so what you see is what the device shows. Pages, the dashboard name and the theme stay shared, and every panel says whether it edits *this version* or *all versions*.
+- **All** applies a change to every version where the element is the same — even if its old value was different there, or the module sits elsewhere in the zone. A toast tells you where it went and where it was skipped.
+- **⧉ Copy** copies a page, the top bar or the whole version from the one you're on to the others. Ctrl+Z undoes it.
+- The Studio tour and the guide explain the versions.
+
+### Changed
+- Hiding or restyling something in one version no longer duplicates the page: the dashboard keeps one page with the differences per screen size, so it stays small and fast.
+- *Hide* and *Delete* name the version they act on.
+- Empty zones no longer draw an empty frame on the dashboard.
+- Top-bar buttons that don't show on screens up to 900 px are marked so in the menu settings.
+
+### Fixed
+- The Studio opens on phones and upright tablets too.
+- The page keeps its scroll position after a change, Undo or Redo.
+- On 1024–1440 px screens the bottom bar no longer runs off the screen and *Save* stays visible.
+- The bottom zone and messages are no longer covered by the Studio's bars.
+- Redo returns to the version the change was made in.
+- Long-press dragging with a finger no longer breaks off.
+- On phones the page scrolls normally, also over the Studio's frames, and the phone's own spacing is used.
+- In the popup editor the toolbar of the selected element no longer covers *Settings* and *Try*, and the header fits narrow popups.
+
 ## 1.10.1 — 2026-10-03
 
 ### Changed

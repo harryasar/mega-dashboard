@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.10.1-blue.svg?style=for-the-badge" alt="1.10.1">
+  <img src="https://img.shields.io/badge/version-1.11.0-blue.svg?style=for-the-badge" alt="1.11.0">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -50,7 +50,7 @@
 | 📝 **Plain forms** | Each card has *Content*, *Actions*, *Style* and *Code* tabs — device, name, icon, what happens on tap, colours and sizes, state rules and shared styles. |
 | 🧩 **Card gallery** | 25 ready-made cards using only built-in Home Assistant cards: room (every device in an area), tile, thermostat, 3D map / floor plan, pages menu, phone-only menu, who is home, weather, graphs, energy, camera, media, to-do, calendar and more — or *Like the cards next to it*. |
 | 🏠 **3D map editor** | Drag devices onto a picture of your home, add light glows and air-conditioner / radiator animations, and a separate night picture. Works with mouse and touch. |
-| 📱 **Phone, tablet, desktop** | Preview anything at phone, tablet or laptop width — the preview applies that screen's real layout rules. *Where it shows* picks the screens and users for each card. |
+| 📱 **Phone, tablet, desktop** | Every dashboard has a computer, a tablet and a phone version. Pick one in the Studio and arrange it on its own — hide, move, resize or restyle anything there and the other versions stay as they are. *All* changes every version at once, ⧉ copies a page or the whole layout between them. |
 | 💾 **Safe saving** | Nothing is written until you press *Save*. Undo / redo, conflict detection if the dashboard was changed elsewhere, and a history of recent saves you can restore. |
 | ⚙️ **Dashboard tools** | Page settings (title, path, icon, theme, background, who sees it), kiosk mode, device check (find and replace unavailable entities everywhere), cleanup of unused styles, backup and restore. |
 | 🎨 **Your editor, your look** | Glass, solid, black (OLED), light or *Like HA* theme, any accent colour, four text sizes. Only the editor changes — never your dashboard. |
@@ -141,6 +141,7 @@ It needs [button-card](https://github.com/custom-cards/button-card), [layout-car
 | **Pages, top menu, look** | **Pages** (add, rename, reorder), **Top menu** (buttons, tabs and full screen — hide the HA header and sidebar), **Look** (background, own photo, accent with a numbered example of where it shows). |
 | **Hints, language** | The hint above the bottom bar changes with what you do; × hides it. *Help* turns hints back on and switches English / Bulgarian. |
 | **Anything else** | **Advanced** opens the full editor on the selected module. A module changed there is kept as *changed by hand* until you reset it. |
+| **Edit the phone or tablet version** | Pick *Computer*, *Tablet* or *Phone* in the bar above the bottom one. Changes apply only to that version; turn on *All* to change every version, or ⧉ to copy a page, the top bar or everything to another version. Pages, the name and the theme are shared. |
 | **Save** | **Save** (`Ctrl+S`). Undo / redo with `Ctrl+Z` / `Ctrl+Y`. |
 
 ### 5. Advanced mode
