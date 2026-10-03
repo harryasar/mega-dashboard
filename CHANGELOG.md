@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.11.1 — 2026-10-03
+
+### Fixed
+- Card settings no longer slide sideways and cut off their left side: the tabs (*Content*, *Layout*, *Style*, *Actions*, *Visibility*, *Code*) wrap to a second row when the panel is narrow.
+- In the phone and tablet versions the Studio leaves room under the page, so the last row of the dashboard is no longer hidden behind the Studio's bars.
+- On phones the toolbar of a selected element on a hand-made page shows all its buttons instead of scrolling sideways.
+
 ## 1.11.0 — 2026-10-03
 
 ### Added
