@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.11.3 — 2026-10-03
+
+### Fixed
+- An element made shorter than its content in the Studio (*scrolls inside*) no longer shows a grey scrollbar: it still scrolls with the mouse wheel or a finger, without the bar.
+
 ## 1.11.2 — 2026-10-03
 
 ### Fixed
