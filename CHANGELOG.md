@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.14.4 — 2026-10-04
+
+### Added
+- **The animation panel says what's happening now:** *Now: off → hidden* (or *showing*), so you see at once why an animation doesn't appear.
+- **Better device suggestions.** If the chosen device is off but another one from the same device is on, the panel suggests it with one tap. For example, a SHIELD's Cast player stays *off* while the screen is on, so the panel offers *Android TV* or *SHIELD Screen* instead.
+- Animations are listed under *Points* too; tap one to open its settings.
+
+### Changed
+- *By attribute* offers only attributes that change, not internal ones like *supported_features*. If you pick one anyway, the panel explains why it can't work. The *When* chips show the attribute's values.
+
 ## 1.14.3 — 2026-10-04
 
 ### Added
