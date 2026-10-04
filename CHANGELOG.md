@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.14.2 — 2026-10-04
+
+### Added
+- **Smart animations** change their look with the device's state, so one animation is enough: *Lock* shows an open lock when unlocked, a green lock when locked and a red one when jammed; *Alarm* shows a shield when armed and the siren when triggered; the new *Air conditioner* blows cold air when cooling, warm air when heating and plain air otherwise. The library marks them as *smart*, and the panel says which looks they switch between.
+
+### Changed
+- *Unlocked* is now the smart *Lock* and shows for every lock state by default. Animations you already placed keep the states you chose.
+
 ## 1.14.1 — 2026-10-04
 
 ### Added
