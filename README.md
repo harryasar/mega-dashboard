@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.14.0-blue.svg?style=for-the-badge" alt="1.14.0">
+  <img src="https://img.shields.io/badge/version-1.14.1-blue.svg?style=for-the-badge" alt="1.14.1">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -68,7 +68,7 @@
 
 ## Requirements
 
-- Home Assistant **2024.10** or newer, as **Home Assistant OS** or a **Supervised** install — they have the app store. Container and Core installs have no apps.
+- Home Assistant **2024.10** or newer, as **Home Assistant OS** or a **Supervised** install — they have the app store. On **Container** or **Core**, use [Docker](#install-with-docker-home-assistant-container-or-core) instead.
 - A Home Assistant **administrator** account — only administrators see the editor.
 - A dashboard in the normal *UI* (storage) mode. YAML dashboards open read-only.
 
@@ -90,6 +90,32 @@ The app copies Mega Dashboard and the add-ons it needs to `/config/www/mega-dash
 | `kiosk_mode` | on | Installs kiosk-mode (full screen) |
 | `mini_graph_card` | on | Installs mini-graph-card |
 | `advanced_camera_card` | on | Installs advanced-camera-card |
+
+### Install with Docker (Home Assistant Container or Core)
+
+Container and Core have no app store, so Mega Dashboard runs as its own small container next to Home Assistant. It does the same as the app: copies the files, registers the resources, creates the dashboard and keeps them up to date.
+
+1. In Home Assistant open your **profile → Security** (as an administrator) and create a **long-lived access token**.
+2. Add this to your `docker-compose.yml` — the folder on the left is the one that holds your `configuration.yaml`:
+
+   ```yaml
+   services:
+     mega-dashboard:
+       image: images.mega-dashboard.eu/mega-dashboard:latest
+       container_name: mega-dashboard
+       restart: unless-stopped
+       network_mode: host
+       environment:
+         HA_URL: http://127.0.0.1:8123
+         HA_TOKEN: "paste-the-token-here"
+       volumes:
+         - /path/to/homeassistant/config:/homeassistant
+   ```
+
+   Not on the same machine or not on the host network? Put Home Assistant's address in `HA_URL` (for example `http://192.168.1.10:8123`) and drop `network_mode`.
+3. `docker compose up -d`, then **reload the browser** once. If your config folder had no `www` folder before, Mega Dashboard creates it and a notification asks you to **restart Home Assistant once** — it only serves that folder after a restart.
+
+The options are environment variables: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD` (all on by default; set `"false"` to turn one off). Update with `docker compose pull && docker compose up -d`. To remove it, run `docker compose run --rm mega-dashboard remove` (takes the resources out, your dashboards stay), then `docker compose down`. What it did is in `docker logs mega-dashboard`.
 
 ## Getting started
 

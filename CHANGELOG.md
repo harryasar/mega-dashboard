@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.14.1 — 2026-10-04
+
+### Added
+- **Home Assistant Container and Core.** Mega Dashboard now also runs as its own Docker container next to Home Assistant — with a long-lived token instead of Supervisor. It installs and updates the same files, resources and dashboard as the app. See *Install with Docker* in the guide.
+- **New map animations:** *Locked* (a calm green lock), *Lock jammed* (a red, shaking lock), *Alarm armed* (a shield with a radar sweep) and *Gate / garage moving* (a sliding gate with a warning light) — 32 in the library now.
+- Locks also offer *locking* and *unlocking*, and alarms *armed_night*, when you choose when an animation shows.
+
 ## 1.14.0 — 2026-10-04
 
 ### Added

@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Приложение за Home Assistant"></a>
-  <img src="https://img.shields.io/badge/version-1.14.0-blue.svg?style=for-the-badge" alt="1.14.0">
+  <img src="https://img.shields.io/badge/version-1.14.1-blue.svg?style=for-the-badge" alt="1.14.1">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -68,7 +68,7 @@
 
 ## Изисквания
 
-- Home Assistant **2024.10** или по-нов, като **Home Assistant OS** или **Supervised** инсталация — те имат магазин за приложения. Container и Core нямат приложения.
+- Home Assistant **2024.10** или по-нов, като **Home Assistant OS** или **Supervised** инсталация — те имат магазин за приложения. На **Container** или **Core** ползвай [Docker](#инсталиране-с-docker-home-assistant-container-или-core).
 - Потребител **администратор** — само администраторите виждат редактора.
 - Табло в нормалния режим *от интерфейса* (storage). YAML таблата се отварят само за четене.
 
@@ -90,6 +90,32 @@
 | `kiosk_mode` | вкл. | Слага kiosk-mode (цял екран) |
 | `mini_graph_card` | вкл. | Слага mini-graph-card |
 | `advanced_camera_card` | вкл. | Слага advanced-camera-card |
+
+### Инсталиране с Docker (Home Assistant Container или Core)
+
+Container и Core нямат магазин за приложения, затова Mega Dashboard работи като отделен малък контейнер до Home Assistant. Прави същото като приложението: копира файловете, регистрира ресурсите, създава таблото и ги държи обновени.
+
+1. В Home Assistant отвори **профила си → Сигурност** (като администратор) и създай **дълготраен токен за достъп**.
+2. Добави това в `docker-compose.yml` — папката вляво е тази, в която е `configuration.yaml`:
+
+   ```yaml
+   services:
+     mega-dashboard:
+       image: images.mega-dashboard.eu/mega-dashboard:latest
+       container_name: mega-dashboard
+       restart: unless-stopped
+       network_mode: host
+       environment:
+         HA_URL: http://127.0.0.1:8123
+         HA_TOKEN: "постави-токена-тук"
+       volumes:
+         - /път/до/homeassistant/config:/homeassistant
+   ```
+
+   Home Assistant е на друга машина или не е в мрежата на хоста? Сложи адреса му в `HA_URL` (например `http://192.168.1.10:8123`) и махни `network_mode`.
+3. `docker compose up -d`, после **презареди браузъра** веднъж. Ако в папката с настройките не е имало папка `www`, Mega Dashboard я създава и известие те моли да **рестартираш Home Assistant веднъж** — той показва тази папка чак след рестарт.
+
+Настройките са променливи на средата: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD` (всички са включени; `"false"` изключва). Обновяване: `docker compose pull && docker compose up -d`. Премахване: `docker compose run --rm mega-dashboard remove` (маха ресурсите, таблата ти остават), после `docker compose down`. Какво е направил — в `docker logs mega-dashboard`.
 
 ## Първи стъпки
 
