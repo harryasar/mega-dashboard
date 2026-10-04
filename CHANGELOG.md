@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.14.5 — 2026-10-04
+
+### Added
+- **Show an animation still when the device is off.** *When it's not on* chooses between *Hide* and *Show it still*: the animation stays in place, dimmer and not moving, and starts when the device turns on. You can still tap it, for example to turn the fan on.
+- New fans, TVs, sprinklers, pumps, washers and robot vacuums are shown still when off by default. Lights, doors and alarms are still hidden.
+- If *When* includes *off* or *closed*, the panel warns that the animation would move while the device is off and fixes it with one tap.
+
 ## 1.14.4 — 2026-10-04
 
 ### Added

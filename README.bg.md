@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Приложение за Home Assistant"></a>
-  <img src="https://img.shields.io/badge/version-1.14.4-blue.svg?style=for-the-badge" alt="1.14.4">
+  <img src="https://img.shields.io/badge/version-1.14.5-blue.svg?style=for-the-badge" alt="1.14.5">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
