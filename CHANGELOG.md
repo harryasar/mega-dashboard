@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.14.0 — 2026-10-04
+
+### Added
+- **Animation library for the map.** *Animations → Library* in the map editor has 26 ready animations for a smart home — light glow and rays, LED strip, fan, air conditioner (cool and heat), humidifier, TV, music, motion, presence, door, window, lock, doorbell, camera, alarm, smoke, leak, sprinklers, pool, washer, power, EV charger, fireplace, robot vacuum and blinds — with a live preview, search and categories. The ones that fit your devices are marked.
+- Each animation follows a device: pick *when* it shows (any state, several states, *not* a state, or a number above or below a value — also from an attribute), or show it always. Set its colour, speed, size, rotation and brightness by night and by day.
+- **Your own animation.** Upload a picture or give a link and choose an effect (pulse, spin, float, blink, glow, shake) — it works with the same device and state settings.
+- **One bar for the Studio.** The two bottom bars are now one: *Add*, the page tools (Layout, Pages, Top menu, Style), the version you edit (computer, tablet, phone, *All* and copy), undo/redo, the view tools and *Save*. Groups show only the active label, every button has a tooltip with its shortcut, and rarely used actions (Advanced, Help, Hide, Close) are under *⋯*.
+- **Find any action with Ctrl+K** — type a few letters (page, phone, style, save…) and press Enter. Pages are listed too.
+- *Save* shows clearly when everything is saved.
+
+### Fixed
+- The map editor opens for maps embedded in another card (it said the map was not found).
+- Room light corners show and can be dragged again; switching between *By room* and *Spot* keeps the shape.
+- *Settings*, *Try* and *Element* in the popup editor work again, and *Try* no longer closes the editor.
+- The popup editor shows popups at their real width (the clock popup looked squeezed).
+- Text in the map preview panel stays in place.
+- The slide-out panel no longer slides out while a Studio window is open on the right or the mouse is over the bottom bar.
+
 ## 1.13.0 — 2026-10-03
 
 ### Added
