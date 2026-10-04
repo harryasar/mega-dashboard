@@ -292,3 +292,5 @@ Mega Dashboard is free. If it saves you an evening of YAML, you can say thanks w
 Free to use. All rights reserved. © 2026 Harry Asar
 
 The add-ons the app installs keep their own licenses.
+
+[Terms of use](https://mega-dashboard.eu/terms/) · [Privacy and cookies](https://mega-dashboard.eu/privacy/)
