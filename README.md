@@ -91,10 +91,6 @@ The app copies Mega Dashboard and the add-ons it needs to `/config/www/mega-dash
 | `mini_graph_card` | on | Installs mini-graph-card |
 | `advanced_camera_card` | on | Installs advanced-camera-card |
 
-### Moving from HACS
-
-Just install the app. It switches your dashboards to its own copy of Mega Dashboard and removes the HACS resource for it. Your saved dashboards stay as they are, and add-ons you installed with HACS are left alone. Afterwards you can remove Mega Dashboard from HACS.
-
 ## Getting started
 
 ### 1. Pick or create a dashboard
@@ -213,7 +209,7 @@ Without `button: true` the element is invisible and only names the map.
 
 ## Add-ons
 
-The built-in Home Assistant cards work without anything else. The app installs these free, open-source add-ons for you; the optional ones can be turned off in the app's options. An add-on you already have from HACS is used as it is.
+The built-in Home Assistant cards work without anything else. The app installs these free, open-source add-ons for you; the optional ones can be turned off in the app's options. An add-on you already have is used as it is.
 
 | Add-on | Unlocks | From the app |
 | --- | --- | --- |
