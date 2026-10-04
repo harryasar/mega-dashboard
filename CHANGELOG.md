@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.14.3 — 2026-10-04
+
+### Added
+- **Animations can be buttons.** Give a map animation a tap, double-tap or hold action, just like an icon — e.g. tap the *Lock* animation to lock or unlock the door. In the map editor choose *On tap* (*Lock / unlock*, *Details* or *Nothing*); for locks, covers and alarms it asks *Are you sure?* first unless you turn that off. Holding opens the device details. In the Studio, *Actions* offers all three.
+- Animations are now selectable in the Studio like any other element on the map. *Alt*-click selects what's underneath.
+
+### Changed
+- An animation without an action still lets taps pass through to what's below it, so nothing changes for animations you've already placed.
+
 ## 1.14.2 — 2026-10-04
 
 ### Added
