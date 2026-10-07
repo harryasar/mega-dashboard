@@ -1,7 +1,8 @@
-<h1 align="center">Mega Dashboard</h1>
+<h1 align="center">Mega Dashboard за Home Assistant</h1>
 
 <p align="center">
   <b>Визуален редактор за таблата в Home Assistant — без YAML.</b><br>
+  3D план на дома, наистина цял екран за стенен таблет и киоск, и съветник за настройка.<br>
   Правиш страници, меню, карти и интерактивна 3D карта на дома, виждаш ги на телефон, таблет и компютър и записваш с пълна история.
 </p>
 
@@ -22,6 +23,10 @@
 
 <p align="center">
   <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Покажи приложението Mega Dashboard в твоя Home Assistant."></a>
+</p>
+
+<p align="center">
+  <img src="docs/demo.gif" width="880" alt="Mega Dashboard за Home Assistant: съветникът прави таблото, после натискаш, оразмеряваш и пребоядисваш направо върху него">
 </p>
 
 <p align="center">

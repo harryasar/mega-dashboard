@@ -1,7 +1,8 @@
-<h1 align="center">Mega Dashboard</h1>
+<h1 align="center">Mega Dashboard for Home Assistant</h1>
 
 <p align="center">
   <b>A visual editor for your Home Assistant dashboards — no YAML needed.</b><br>
+  A 3D floor plan of your home, real full screen for wall tablets and kiosks, and a setup wizard.<br>
   Build pages, menus, cards and an interactive 3D map of your home, see them on phone, tablet and desktop, and save with full history.
 </p>
 
@@ -22,6 +23,10 @@
 
 <p align="center">
   <a href="https://my.home-assistant.io/redirect/supervisor_app/?app=88eff9af_mega_dashboard&repository_url=https%3A%2F%2Fapps.mega-dashboard.eu%2F"><img src="https://my.home-assistant.io/badges/supervisor_app.svg" alt="Open your Home Assistant instance and show the Mega Dashboard app."></a>
+</p>
+
+<p align="center">
+  <img src="docs/demo.gif" width="880" alt="Mega Dashboard for Home Assistant: the wizard builds the dashboard, then you tap, resize and restyle it right on the dashboard">
 </p>
 
 <p align="center">
