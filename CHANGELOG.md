@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.14.6 — 2026-10-23
+
+### Added
+- **Suggest an idea / Report a problem.** Two new buttons in the Studio's **⋯** menu and in both *Help* windows. *Suggest an idea* opens a new idea on GitHub Discussions; *Report a problem* opens the bug form with your Mega Dashboard and Home Assistant versions already filled in.
+
 ## 1.14.5 — 2026-10-04
 
 ### Added

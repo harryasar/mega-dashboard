@@ -16,9 +16,15 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.14.5-blue.svg?style=for-the-badge" alt="1.14.5">
+  <img src="https://img.shields.io/badge/version-1.14.6-blue.svg?style=for-the-badge" alt="1.14.6">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/harryasar/mega-dashboard/discussions/new?category=ideas"><img src="https://img.shields.io/badge/%F0%9F%92%A1%20Suggest%20an%20idea-8A63D2.svg?style=for-the-badge" alt="Suggest an idea"></a>
+  <a href="https://github.com/harryasar/mega-dashboard/issues/new?template=bug_report.yml"><img src="https://img.shields.io/badge/%F0%9F%90%9E%20Report%20a%20problem-E5534B.svg?style=for-the-badge" alt="Report a problem"></a>
+  <br><sub>Missing something, or something doesn't work? Tell me — I read everything, and it decides what I build next.</sub>
 </p>
 
 <p align="center">
@@ -302,7 +308,9 @@ On the app's page press **Remove from dashboards**, then uninstall the app and r
 
 ## Help and ideas
 
-Questions, help and ideas: [Discussions](https://github.com/harryasar/mega-dashboard/discussions). Bugs: [Issues](https://github.com/harryasar/mega-dashboard/issues).
+**[💡 Suggest an idea](https://github.com/harryasar/mega-dashboard/discussions/new?category=ideas)** · **[🐞 Report a problem](https://github.com/harryasar/mega-dashboard/issues/new?template=bug_report.yml)** — the same buttons are in the Studio (**⋯** and **Help**), and from there the problem form fills in your versions by itself.
+
+Questions and help: [Discussions](https://github.com/harryasar/mega-dashboard/discussions). Bugs: [Issues](https://github.com/harryasar/mega-dashboard/issues).
 
 ## Support
 

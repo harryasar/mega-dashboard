@@ -16,9 +16,15 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Приложение за Home Assistant"></a>
-  <img src="https://img.shields.io/badge/version-1.14.5-blue.svg?style=for-the-badge" alt="1.14.5">
+  <img src="https://img.shields.io/badge/version-1.14.6-blue.svg?style=for-the-badge" alt="1.14.6">
   <img src="https://img.shields.io/badge/Home%20Assistant-2024.10%2B-03A9F4.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/harryasar/mega-dashboard/discussions/new?category=ideas"><img src="https://img.shields.io/badge/%F0%9F%92%A1%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B8%20%D0%B8%D0%B4%D0%B5%D1%8F-8A63D2.svg?style=for-the-badge" alt="Предложи идея"></a>
+  <a href="https://github.com/harryasar/mega-dashboard/issues/new?template=bug_report.yml"><img src="https://img.shields.io/badge/%F0%9F%90%9E%20%D0%A1%D1%8A%D0%BE%D0%B1%D1%89%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-E5534B.svg?style=for-the-badge" alt="Съобщи за проблем"></a>
+  <br><sub>Липсва ти нещо или нещо не работи? Пиши ми — чета всичко и така решавам какво да направя следващо.</sub>
 </p>
 
 <p align="center">
@@ -302,7 +308,9 @@ Container и Core нямат магазин за приложения, зато�
 
 ## Помощ и идеи
 
-Въпроси, помощ и идеи — в [Discussions](https://github.com/harryasar/mega-dashboard/discussions). Грешки — в [Issues](https://github.com/harryasar/mega-dashboard/issues).
+**[💡 Предложи идея](https://github.com/harryasar/mega-dashboard/discussions/new?category=ideas)** · **[🐞 Съобщи за проблем](https://github.com/harryasar/mega-dashboard/issues/new?template=bug_report.yml)** — същите бутони има и в Студиото (**⋯** и **Помощ**), а оттам формата за проблем сама попълва версиите.
+
+Въпроси и помощ — в [Discussions](https://github.com/harryasar/mega-dashboard/discussions). Грешки — в [Issues](https://github.com/harryasar/mega-dashboard/issues).
 
 ## Подкрепа
 
