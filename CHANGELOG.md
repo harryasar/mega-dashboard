@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.15.0 — 2026-10-23
+
+### Added
+- **Mega Dashboard now speaks German, French, Spanish, Italian and Dutch**, as well as English and Bulgarian. The wizard, the Studio, every module and all messages are translated.
+- The language follows Home Assistant by itself, so a German Home Assistant gets a German dashboard from the first start. You can change it in the wizard's first step or in *Help* at any time, and the change shows at once.
+- Only the language you use is downloaded (about 70 KB), so the dashboard doesn't get slower.
+- The app's notifications and its settings page are translated too.
+- The AI assistant answers in your language, and its safety rules for locks, gates and doors also recognise scripts and scenes named in any of the seven languages.
+- Rooms named in any of these languages get the right icon (for example *Küche*, *Salon*, *Dormitorio*, *Bagno*, *Woonkamer*).
+
+### Fixed
+- A room with one light said "1 lights".
+- If you changed the language in the wizard, the bar of *See it on the dashboard* stayed in the old language.
+- The wizard said "I took the language from Home Assistant" even after you picked one yourself.
+
 ## 1.14.7 — 2026-10-23
 
 ### Fixed

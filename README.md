@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.14.7-blue.svg?style=for-the-badge" alt="1.14.6">
+  <img src="https://img.shields.io/badge/version-1.15.0-blue.svg?style=for-the-badge" alt="1.15.0">
   <img src="https://img.shields.io/badge/Home_Assistant-2024.10%2B-03A9F4?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -66,7 +66,7 @@
 | ⚙️ **Dashboard tools** | Page settings (title, path, icon, theme, background, who sees it), kiosk mode, device check (find and replace unavailable entities everywhere), cleanup of unused styles, backup and restore. |
 | 🎨 **Your editor, your look** | Glass, solid, black (OLED), light or *Like HA* theme, any accent colour, four text sizes. Only the editor changes — never your dashboard. |
 | 🖥️ **Full screen** | Hide the Home Assistant header and sidebar (with kiosk-mode). Administrators get them back with the *HA menu* button in the top bar. |
-| 🌍 **English and Bulgarian** | Asked on first open with your Home Assistant language preselected; change it any time. Keyboard shortcuts also work with a Cyrillic layout. |
+| 🌍 **7 languages** | English, German, French, Spanish, Italian, Dutch and Bulgarian. It follows your Home Assistant language by itself; change it any time. Keyboard shortcuts also work with a Cyrillic layout. |
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/harryasar/mega-dashboard/main/docs/resize-en.webp" width="49%" alt="Module width and settings in the Studio">
@@ -172,7 +172,7 @@ It needs [button-card](https://github.com/custom-cards/button-card), [layout-car
 | **Change a module** | ⚙️ in the toolbar: title, devices, rooms, options. *Default settings* rebuilds it for your home. |
 | **Change the page layout** | **Layout**: Like Overview, Cameras, One column, Two columns; turn zones on and off, including a slide-out side panel. |
 | **Pages, top menu, look** | **Pages** (add, rename, reorder), **Top menu** (buttons, tabs and full screen — hide the HA header and sidebar), **Look** (background, own photo, accent with a numbered example of where it shows). |
-| **Hints, language** | The hint above the bottom bar changes with what you do; × hides it. *Help* turns hints back on and switches English / Bulgarian. |
+| **Hints, language** | The hint above the bottom bar changes with what you do; × hides it. *Help* turns hints back on and switches the language. |
 | **Anything else** | **Advanced** opens the full editor on the selected module. A module changed there is kept as *changed by hand* until you reset it. |
 | **Edit the phone or tablet version** | Pick *Computer*, *Tablet* or *Phone* in the bar above the bottom one. Changes apply only to that version; turn on *All* to change every version, or ⧉ to copy a page, the top bar or everything to another version. Pages, the name and the theme are shared. |
 | **Save** | **Save** (`Ctrl+S`). Undo / redo with `Ctrl+Z` / `Ctrl+Y`. |
@@ -204,7 +204,7 @@ Open **General settings** at the top of the tree.
 | **Device check** | Lists every device the dashboard uses, finds unavailable ones and replaces a device everywhere at once. |
 | **Cleanup** | Removes shared styles that no card uses any more. |
 | **Backup** | Download the whole dashboard as a file and restore it later. |
-| **Editor preferences** | Language (*Like HA*, English, Bulgarian), where the *Settings* button sits (left, right or hidden), confirm before removing, live preview. |
+| **Editor preferences** | Language (*Like HA* or one of the 7), where the *Settings* button sits (left, right or hidden), confirm before removing, live preview. |
 
 Your look and preferences are stored in your Home Assistant user, so they follow you to every device.
 
