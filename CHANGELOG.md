@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.14.7 — 2026-10-23
+
+### Fixed
+- **Full screen on Home Assistant 2026.10.1 and newer.** The app now ships kiosk-mode 15, which works with the new Home Assistant, and keeps kiosk-mode 14 for older versions. It picks the right one by itself and switches when you update Home Assistant, so you don't need to do anything.
+
+### Changed
+- The app now says it needs Home Assistant 2024.10 or newer, so an older Home Assistant shows that before installing instead of failing later.
+- The app runs on Alpine Linux 3.24 with Python 3.14 (security updates).
+
 ## 1.14.6 — 2026-10-23
 
 ### Added
