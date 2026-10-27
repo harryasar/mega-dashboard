@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.15.0-blue.svg?style=for-the-badge" alt="1.15.0">
+  <img src="https://img.shields.io/badge/version-1.15.1-blue.svg?style=for-the-badge" alt="1.15.1">
   <img src="https://img.shields.io/badge/Home_Assistant-2024.10%2B-03A9F4?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -101,6 +101,7 @@ The app copies Mega Dashboard and the add-ons it needs to `/config/www/mega-dash
 | `kiosk_mode` | on | Installs kiosk-mode (full screen) |
 | `mini_graph_card` | on | Installs mini-graph-card |
 | `advanced_camera_card` | on | Installs advanced-camera-card |
+| `telemetry` | on | Anonymous install count (sends a random install ID and version once a day; no IP or home data stored) |
 
 ### Install with Docker (Home Assistant Container or Core)
 
@@ -126,7 +127,7 @@ Container and Core have no app store, so Mega Dashboard runs as its own small co
    Not on the same machine or not on the host network? Put Home Assistant's address in `HA_URL` (for example `http://192.168.1.10:8123`) and drop `network_mode`.
 3. `docker compose up -d`, then **reload the browser** once. If your config folder had no `www` folder before, Mega Dashboard creates it and a notification asks you to **restart Home Assistant once** — it only serves that folder after a restart.
 
-The options are environment variables: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD` (all on by default; set `"false"` to turn one off). Update with `docker compose pull && docker compose up -d`. To remove it, run `docker compose run --rm mega-dashboard remove` (takes the resources out, your dashboards stay), then `docker compose down`. What it did is in `docker logs mega-dashboard`.
+The options are environment variables: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD`, `TELEMETRY` (all on by default; set `"false"` to turn one off). Update with `docker compose pull && docker compose up -d`. To remove it, run `docker compose run --rm mega-dashboard remove` (takes the resources out, your dashboards stay), then `docker compose down`. What it did is in `docker logs mega-dashboard`.
 
 ## Getting started
 
@@ -300,7 +301,7 @@ Someone saved the same dashboard from another device or from the normal editor w
 
 ## Privacy
 
-Everything stays in your Home Assistant. Dashboards are saved through Home Assistant's own API. Preferences and history are stored in your Home Assistant user. Uploaded pictures go to Home Assistant's image storage. No cloud services and no tracking.
+Your devices, rooms and dashboards stay in your Home Assistant. Dashboards are saved through Home Assistant's own API. Preferences and history are stored in your Home Assistant user. Uploaded pictures go to Home Assistant's image storage. Once a day the app sends a random installation ID and version to `apps.mega-dashboard.eu` so we know how many installations are in use (no IP address or home data is stored); you can turn this off with `telemetry` in the app's Configuration tab (`TELEMETRY=false` in Docker).
 
 ## Uninstalling
 

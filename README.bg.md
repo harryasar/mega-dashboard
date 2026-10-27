@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Приложение за Home Assistant"></a>
-  <img src="https://img.shields.io/badge/version-1.15.0-blue.svg?style=for-the-badge" alt="1.15.0">
+  <img src="https://img.shields.io/badge/version-1.15.1-blue.svg?style=for-the-badge" alt="1.15.1">
   <img src="https://img.shields.io/badge/Home_Assistant-2024.10%2B-03A9F4?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -101,6 +101,7 @@
 | `kiosk_mode` | вкл. | Слага kiosk-mode (цял екран) |
 | `mini_graph_card` | вкл. | Слага mini-graph-card |
 | `advanced_camera_card` | вкл. | Слага advanced-camera-card |
+| `telemetry` | вкл. | Анонимно броене на инсталациите (случаен код и версия веднъж дневно; без IP и данни за дома) |
 
 ### Инсталиране с Docker (Home Assistant Container или Core)
 
@@ -126,7 +127,7 @@ Container и Core нямат магазин за приложения, зато�
    Home Assistant е на друга машина или не е в мрежата на хоста? Сложи адреса му в `HA_URL` (например `http://192.168.1.10:8123`) и махни `network_mode`.
 3. `docker compose up -d`, после **презареди браузъра** веднъж. Ако в папката с настройките не е имало папка `www`, Mega Dashboard я създава и известие те моли да **рестартираш Home Assistant веднъж** — той показва тази папка чак след рестарт.
 
-Настройките са променливи на средата: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD` (всички са включени; `"false"` изключва). Обновяване: `docker compose pull && docker compose up -d`. Премахване: `docker compose run --rm mega-dashboard remove` (маха ресурсите, таблата ти остават), после `docker compose down`. Какво е направил — в `docker logs mega-dashboard`.
+Настройките са променливи на средата: `CREATE_DASHBOARD`, `KIOSK_MODE`, `MINI_GRAPH_CARD`, `ADVANCED_CAMERA_CARD`, `TELEMETRY` (всички са включени; `"false"` изключва). Обновяване: `docker compose pull && docker compose up -d`. Премахване: `docker compose run --rm mega-dashboard remove` (маха ресурсите, таблата ти остават), после `docker compose down`. Какво е направил — в `docker logs mega-dashboard`.
 
 ## Първи стъпки
 
@@ -300,7 +301,7 @@ Container и Core нямат магазин за приложения, зато�
 
 ## Поверителност
 
-Всичко остава в твоя Home Assistant. Таблата се записват през API-то на самия HA. Предпочитанията и историята се пазят в потребителя ти. Качените картини отиват в хранилището за картини на HA. Без облачни услуги и без следене.
+Устройствата, стаите и таблата остават в твоя Home Assistant. Таблата се записват през API-то на самия HA. Предпочитанията и историята се пазят в потребителя ти. Качените картини отиват в хранилището за картини на HA. Веднъж на ден приложението праща случаен код на инсталацията и версията до `apps.mega-dashboard.eu`, за да знаем колко инсталации се ползват (не се записват IP адрес или данни за дома); изключва се с `telemetry` в раздела „Конфигурация“ на приложението (`TELEMETRY=false` при Docker).
 
 ## Премахване
 

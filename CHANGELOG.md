@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.15.1 — 2026-10-27
+
+### Added
+- **Anonymous install count (optional).** Once a day the app sends a random installation ID and the app and Home Assistant versions to `apps.mega-dashboard.eu` so we know how many installations and which versions are in use. No IP address, device names, rooms or personal data are stored. You can turn it off at any time in the app's *Configuration* tab (`telemetry`, or `TELEMETRY=false` with Docker) — turning it off also deletes your record from the server.
+
 ## 1.15.0 — 2026-10-23
 
 ### Added
