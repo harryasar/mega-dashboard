@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://mega-dashboard.eu/#install"><img src="https://img.shields.io/badge/Home%20Assistant-app-41BDF5.svg?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant app"></a>
-  <img src="https://img.shields.io/badge/version-1.15.1-blue.svg?style=for-the-badge" alt="1.15.1">
+  <img src="https://img.shields.io/badge/version-1.16.0-blue.svg?style=for-the-badge" alt="1.16.0">
   <img src="https://img.shields.io/badge/Home_Assistant-2024.10%2B-03A9F4?style=for-the-badge&logo=homeassistant&logoColor=white" alt="Home Assistant 2024.10+">
   <a href="https://buymeacoffee.com/harryasarz"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00.svg?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 </p>
@@ -52,7 +52,7 @@
 | Feature | What it does |
 | --- | --- |
 | 🎛️ **Studio** | Edit the dashboard right on the dashboard. Pages are made of zones (columns, a bottom bar, a slide-out panel) and zones hold **modules** — ready blocks that fill themselves with your devices. Select a module to get a toolbar (settings, up/down, duplicate, hide, delete), press **+** between modules, or drag one in from the **Library** with a live preview. **Drag the right edge** of a module to make it narrower or wider — narrow modules sit side by side. Hints at the bottom tell you what you can do next. Mouse and touch. |
-| 🪄 **Wizard** | Ten short screens build a complete dashboard from your home: the devices you **use most** (read from the last 14 days of the logbook — only actions by a person count), rooms in your order, pages and modules, a picture of your home (with a guide and a ready AI image prompt), background and accent (with a live example of what the accent colours), add-ons. *See it on the dashboard* shows the result before saving. |
+| 🪄 **Wizard** | Short screens build a complete dashboard from your home: devices without a room put in rooms (the room is guessed from the name), the devices you **use most** (read from the last 14 days of the logbook — only actions by a person count), rooms in your order, pages and modules, a picture of your home (with a guide and a ready AI image prompt), background and accent (with a live example of what the accent colours). A brand-new Home Assistant with no devices first gets a short guide on adding them. *See it on the dashboard* shows the result before saving. |
 | ✨ **AI assistant** | Optional, in the wizard: pick ChatGPT, Claude, Gemini or Ollama, paste **your own key**, and get a voice assistant with instructions written for your home (rooms, devices, most used) — connected in Home Assistant and set as the Assist pipeline if you want. |
 | 🩺 **Home check** | Batteries below 20%, devices that don't respond, lights without a room (put them in rooms in one go) and tips like missing weather or people. |
 | 🧭 **Guide and tour** | A short tour after creating, and a guide where every step has *Show me*. |
@@ -61,6 +61,7 @@
 | 📝 **Plain forms** | Each card has *Content*, *Actions*, *Style* and *Code* tabs — device, name, icon, what happens on tap, colours and sizes, state rules and shared styles. |
 | 🧩 **Card gallery** | 25 ready-made cards using only built-in Home Assistant cards: room (every device in an area), tile, thermostat, 3D map / floor plan, pages menu, phone-only menu, who is home, weather, graphs, energy, camera, media, to-do, calendar and more — or *Like the cards next to it*. |
 | 🏠 **3D map editor** | Drag devices onto a picture of your home, add light glows and air-conditioner / radiator animations, and a separate night picture. Works with mouse and touch. |
+| 🧸 **Easy mode** | The Studio starts simple: tap a module, then change its settings, move, copy, hide or delete it — changes apply to every screen size. **⋯ → All tools** opens single elements, layers and the phone / tablet versions. |
 | 📱 **Phone, tablet, desktop** | Every dashboard has a computer, a tablet and a phone version. Pick one in the Studio and arrange it on its own — hide, move, resize or restyle anything there and the other versions stay as they are. *All* changes every version at once, ⧉ copies a page or the whole layout between them. |
 | 💾 **Safe saving** | Nothing is written until you press *Save*. Undo / redo, conflict detection if the dashboard was changed elsewhere, and a history of recent saves you can restore. |
 | ⚙️ **Dashboard tools** | Page settings (title, path, icon, theme, background, who sees it), kiosk mode, device check (find and replace unavailable entities everywhere), cleanup of unused styles, backup and restore. |

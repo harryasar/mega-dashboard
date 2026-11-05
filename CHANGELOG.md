@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.16.0 — 2026-11-05
+
+### Added
+- **Easy mode in the Studio, on by default.** A tap or click selects a whole module, and its bar has only what you need: settings, move up and down, copy, hide and delete. The bottom bar is shorter, and changes apply to every screen size at once. Everything else (single elements, layers, versions for phone and tablet) is one tap away in **⋯ → All tools**, and **⋯ → Easy mode** brings the simple view back.
+- **Rooms step in the wizard.** Devices that aren't in a room yet are listed with a suggested room, which comes from the device name (*Kitchen Lights* → Kitchen; *Garage Door* → a new room called Garage). Pick the ones you want and they are placed for you. If you press *Next* with picks you haven't placed, the wizard offers to place them.
+- **New Home Assistant with no devices yet?** The wizard now opens with a short guide on how to add devices, phones and integrations, with a *Check again* button, instead of building an empty dashboard.
+- **New devices notice.** When you add something to Home Assistant after the dashboard was made, a small card offers to add it, in the right room. The change is saved in the history, so *Restore* can undo it.
+- **Update notice.** When a new version fixes how a dashboard is built, admins see a one-time *This dashboard can be updated* card with *Update*, *Later* and *No*. The old dashboard stays in the history.
+- **Devices by type.** A new module lists lights, plugs, blinds and fans in groups. The Overview uses it when no room has lights yet, instead of an empty *Rooms* block.
+- A freshly installed dashboard that hasn't been set up shows a big *Set it up* invitation instead of an empty page.
+
+### Fixed
+- **Light theme.** With Home Assistant's light theme, built-in cards on the dashboard (alarm, graphs, energy, lists) and the dashboard's windows were dark text on a dark background.
+- The shopping list opened empty in the dashboard's own window.
+- The Overview showed the climate twice.
+- **Phone:** *Energy* and *System* were hard to reach. They are now tabs at the top on narrow screens, and many tabs fit without cutting their names.
+- Thermostats in *Heat/Cool* mode showed "off". They now show the range (for example *21–24°*), and + / − move both ends.
+- "2 devices running" was cut off in the climate summary.
+- The wizard's Rooms step stopped at the first device it couldn't place.
+- The new devices window lost the dashboard theme.
+- A shorter wizard: the *Add-ons* step is gone (Mega Dashboard installs what it needs by itself).
+
 ## 1.15.1 — 2026-10-27
 
 ### Added
