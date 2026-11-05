@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.17.0 — 2026-11-05
+
+### Added
+- **Talk through your cameras.** The live camera view gets a *Talk* button when the camera supports two-way audio (for example through go2rtc or Frigate). Tap it to talk, tap again to stop. Browsers allow the microphone only over HTTPS.
+- **Light colors in one strip.** On Home Assistant 2026.11 and newer, a light card added from the gallery shows a color strip under the brightness when the light supports colors.
+- **The AI assistant can help with problems.** On Home Assistant 2026.11 and newer, the wizard's AI step tells you that you can ask the assistant why something isn't working, so it can check the log and the system information.
+
+### Changed
+- **Names ready for the new Home Assistant.** Home Assistant 2026.11 starts building names from the device and the entity, and the old name attribute will go away later. The dashboard now uses Home Assistant's own names when the old one is missing, and the vacuum's filter, brushes and other parts show only their own names.
+- **Most used** in the wizard now counts only what people turned on. Actions from Node-RED, AppDaemon and similar tools that log in as a user no longer count.
+
+### Fixed
+- **Phone:** the Assist microphone was missing from the top bar. It now sits on the right, next to the time.
+
 ## 1.16.0 — 2026-11-05
 
 ### Added
