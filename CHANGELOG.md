@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.18.0 — 2026-11-06
+
+### Added
+- **Frigate cameras.** Frigate cameras come first. Their tiles show *REC* while recording and a badge for what is in front of the camera right now (person, car, cat…). The Cameras page gets a *Recent detections* strip with the latest snapshot of each object; tap one to open it. The live view also gets Frigate's clips, snapshots and PTZ controls.
+- **More for air conditioners.** When sleep, eco, turbo or quiet are separate switches of the air conditioner, they now appear under *Extra* on its card.
+- **Volume on Now playing.** The big player shows the volume, and takes the progress and picture from the second copy of the same device when one copy lacks them (for example ADB and Cast for the same TV).
+
+### Changed
+- **Room names instead of device names.** A device that is the only one of its kind in a room is called by the room: “Kitchen” instead of “Kitchen Bar Lights Group”, for lights, air conditioners, radiators, players and cameras.
+- **States in the dashboard's language.** When Home Assistant and the dashboard use different languages, states such as off, closed, docked, cloudy and the fan and swing modes now follow the dashboard's language.
+- **Rooms in a sensible order.** Living areas come first, then bathrooms and halls, and garage, balcony and outdoor areas last.
+- **Fewer duplicates.** One camera per device (the main stream, not SD or snapshot streams), no tablet camera, and no temporary scenes made by `scene.create`. Scripts that look like scenes come first under *Scenes*, without the word “Scene” in front.
+
 ## 1.17.0 — 2026-11-05
 
 ### Added
